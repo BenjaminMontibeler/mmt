@@ -163,3 +163,66 @@ a:hover{
   top: 5%;
   left: 5%;
 }
+.lora:hover{
+  cursor: pointer;
+}
+.loravid{
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.lorainfo{
+
+  position: relative;
+  top: -45%;
+  left: 30%;
+
+}
+
+.brnjavid{
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+.brnjainfo{
+
+  position: relative;
+  top: 5%;
+  left: 5%;
+
+}
+
+.brnja:hover{
+  cursor: pointer;
+}
+.brnja{
+  width: 20%;
+  height: auto;
+  position: relative;
+  top: 5%;
+  left: 5%;
+
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+.link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #8D755F;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
